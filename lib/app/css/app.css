@@ -1,0 +1,72 @@
+body {
+  position: relative;
+  padding-top: 40px;
+}
+
+.search label {
+  font-size: 16px;
+  padding-right: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  text-rendering: optimizelegibility;
+}
+
+section {
+  padding-top: 30px;
+}
+
+.table tr:hover {
+  font-size: 120%;
+}
+.navbar-fixed-top .brand {
+  padding-right: 0;
+  padding-left: 0;
+  margin-left: 20px;
+  float: right;
+  font-weight: bold;
+  color: #000;
+  text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.125);
+  -webkit-transition: all .2s linear;
+     -moz-transition: all .2s linear;
+          transition: all .2s linear;
+}
+.navbar-fixed-top .brand:hover {
+  text-decoration: none;
+}
+
+
+#info-box div.title
+{
+    font-size: 20px;
+}
+
+path {
+  fill: rgb(209, 210, 213);
+  stroke-miterlimit: 4; 
+  stroke-dasharray: none; 
+  stroke-opacity: 1;
+  stroke: black;
+  stroke-width: 1px;
+  overflow: hidden;
+}
+
+.link { stroke: #ccc; }
+.nodetext { pointer-events: none; font: 10px sans-serif; }
+.hero-unit {padding : 10px}
+
+.circonscriptionName text {
+    font-size: 1.25em;
+    fill:"black";
+}
+
+.circonscriptionName .delegation {
+    font-size: 1.5em;
+    font-size: 24px;
+    height: 34px;
+}
+
+.circonscriptionName .circonscription {
+    font-size: 20px;
+    height: 28px;
+
+}
