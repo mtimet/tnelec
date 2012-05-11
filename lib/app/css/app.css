@@ -15,9 +15,6 @@ section {
   padding-top: 30px;
 }
 
-.table tr:hover {
-  font-size: 120%;
-}
 .navbar-fixed-top .brand {
   padding-right: 0;
   padding-left: 0;
