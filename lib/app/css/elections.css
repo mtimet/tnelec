@@ -57,9 +57,12 @@ float: left;
     display: inline;
 }
 .partyLink{
+    padding-left: 4px;
     display: inline;
+    cursor: pointer;
 }
 .partyLogo {
+    padding-left: 2px;
     padding-right: 2px;
     vertical-align: top;
 }
