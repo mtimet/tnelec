@@ -1,10 +1,42 @@
-path.ennahdha{fill: #183883;}
-path.cpr{fill: #4CA42F;}
-path.petition{fill: #158600;}
-path.ettakatol{fill: #B2222;}
-path.pdp{fill: #FFD600;}
-path.initiative{fill: #15ADFF;}
-path.pdm{fill: #0557BA;}
-path.afek{fill: red;}
-path.pcot{fill: #D70F0F;}
+
+#tooltip{
+  background-color: whiteSmoke;
+  border-radius: 3px 3px 3px 3px;
+  -webkit-border-radius: 3px 3px 3px 3px;
+  box-shadow: 1px 1px 4px #555555;
+  -webkit-box-shadow: 1px 1px 4px #555555;
+  max-width: 200px;
+  opacity: 0.93;
+  padding: 3px;
+  position: absolute;
+  visibility: hidden;
+  display: block;
+  z-index: 1000;
+}
+
+.table td.leftish,
+.table th.leftish {
+	text-align:left;
+}
+
+.percentage {
+font-weight: bolder;
+font-size: 12px;
+}
+
+.tooltipTitle {
+font-size: 14px;
+font-weight: bolder;
+line-height: 13px;
+margin: 0 0 4px;
+float: left;
+}
+
+.partyColoredBox{
+    float: left;
+    height: 8px;
+    margin: 1px;
+    width: 8px;
+}
+
 
