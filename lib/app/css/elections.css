@@ -24,6 +24,12 @@ font-weight: bolder;
 font-size: 12px;
 }
 
+.percentageBig{
+	font-size:21px;
+	font-weight:bolder;
+	
+}
+
 .tooltipTitle {
 font-size: 14px;
 font-weight: bolder;
@@ -39,4 +45,17 @@ float: left;
     width: 8px;
 }
 
+.partyColoredBoxBig {
+	width: 12px;
+	height: 12px;
+	margin-top: 9px;
+	display: inline-block;
+	zoom: 1;
+}
 
+.party {
+	display: inline;
+}
+.partyLink{
+	display: inline;
+}
