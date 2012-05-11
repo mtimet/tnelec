@@ -46,16 +46,20 @@ float: left;
 }
 
 .partyColoredBoxBig {
-	width: 12px;
-	height: 12px;
-	margin-top: 9px;
-	display: inline-block;
-	zoom: 1;
+    width: 12px;
+    height: 12px;
+    margin-top: 9px;
+    display: inline-block;
+    zoom: 1;
 }
 
 .party {
-	display: inline;
+    display: inline;
 }
 .partyLink{
-	display: inline;
+    display: inline;
+}
+.partyLogo {
+    padding-right: 2px;
+    vertical-align: top;
 }
