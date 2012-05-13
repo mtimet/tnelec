@@ -66,3 +66,38 @@ float: left;
     padding-right: 2px;
     vertical-align: top;
 }
+
+/*map part*/
+
+.legend rect {
+  stroke: #333;
+  stroke-width: 0.25px;
+}
+
+.legend-title,
+.legend-tick,
+.legend text,
+.title,
+.year {
+  fill: #ddd;
+}
+
+.legend-tick {
+  font-size: 0.75em;
+}
+
+.legend-title {
+  font-size: 1em;
+}
+
+.legend text {
+    font-size: 0.75em;
+}
+
+#navigation {
+    height: 26px;
+}
+
+#navigationButton {
+    display: none;
+}
