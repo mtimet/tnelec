@@ -38,7 +38,7 @@ section {
 }
 
 path {
-  fill: rgb(209, 210, 213);
+  fill: #bab6b6/*rgb(209, 210, 213)*/;
   stroke-miterlimit: 4; 
   stroke-dasharray: none; 
   stroke-opacity: 1;

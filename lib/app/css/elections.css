@@ -101,3 +101,9 @@ float: left;
 #navigationButton {
     display: none;
 }
+
+#tooltipInstruction {
+    color: #888888;
+    font-size: 11px;
+    padding-left:5px;
+}
