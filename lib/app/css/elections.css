@@ -107,3 +107,7 @@ float: left;
     font-size: 11px;
     padding-left:5px;
 }
+
+path{
+    cursor: pointer;
+}
