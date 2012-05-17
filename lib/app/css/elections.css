@@ -111,3 +111,13 @@ float: left;
 path{
     cursor: pointer;
 }
+
+
+.badge {
+padding: 1px 9px 2px;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+
+font-size: 12px;
+}
