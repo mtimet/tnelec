@@ -1,106 +1,99 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ANC Election Results</title>  
-    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css" type="text/css"/>
-    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap-responsive.css" type="text/css"/>
-    <link rel="stylesheet" href="lib/colorbrewer/colorbrewer.css" type="text/css"/>
-    <link rel="stylesheet" href="lib/app/css/app.css" type="text/css"/>
-    <link rel="stylesheet" href="lib/app/css/elections.css" type="text/css"/>
-    <link rel="shortcut icon" href="favicon.ico">
-  </head>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ANC Election Results</title>  
+  <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css" type="text/css"/>
+  <link rel="stylesheet" href="lib/bootstrap/css/bootstrap-responsive.css" type="text/css"/>
+  <link rel="stylesheet" href="lib/colorbrewer/colorbrewer.css" type="text/css"/>
+  <link rel="stylesheet" href="lib/app/css/app.css" type="text/css"/>
+  <link rel="stylesheet" href="lib/app/css/elections.css" type="text/css"/>
+  <link rel="shortcut icon" href="favicon.ico">
+  <script data-main="lib/main.js" src="lib/require.js"></script>
+</head>
 
-  <body>
-    <div class="navbar navbar-fixed-top">
+<body>
+<div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
-	  <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-	  <a class="brand" href="./index.html">TNAC 2012 Election Results</a>
-	  <div class="nav-collapse">
-	    <ul class="nav">
+    <a class="brand" href="./elections.html">TNAC 2012 Election Results</a>
+    <div class="nav-collapse">
+      <ul class="nav">
 
-	      <li class="active">
-	        <a class="brand" href="./elections.html">Results</a>
-	      </li>
-	      
-	    </ul>
-	  </div>
+        <li class="active">
+          <a class="brand" href="./elections.html">Results</a>
+        </li>
+        
+      </ul>
+    </div>
         </div>
       </div>
     </div>
-    
-    <div class="container">
-      <section id="main">
-        <div id="map-circonscriptions" class="span4 hero-unit">
-	  <div id="navigation">
-	    <button id="navigationButton" class="btn-mini btn-inverse"> <i class="icon-chevron-left icon-white"></i> </button>
-	  </div>
-	</div>
-	<div id="info-box" class="span6">
-	  <table id="partyBar" class="table" style="display: table;">
-	    <tbody>
-	      
-	    </tbody>
-	  </table>
-	  <table id="info-table" class="table table-condensed">
-	    <thead>
-	      <tr>
-		
-	      </tr>
-	      </thead>
-	    <tbody>
-	    </tbody>
-	  </table>
-	</div>
-      </div>		    
-    </section>
-    <section id="hidden-stuff">
-      <div id="tooltip">
-	<table id="tooltipTable" class="table table-condensed">
-	    <thead>
-	      <tr>
-		<td colspan="4">
-		</td>
-	      </tr>
-	    </thead>
-	    <tbody>
-	      
-	    </tbody>
-	  </table>
-	  <span id="tooltipInstruction" style="display: inline; ">Click for zoom in</span>
-	</div>
-      </section>
-      <hr>
-      
-  
-    </div>
-    
-    <script type="text/javascript" src="lib/d3/d3.v2.min.js"></script>
-    <script type="text/javascript" src="lib/queue/queue.min.js"></script>
-    <script type="text/javascript" src="lib/crossfilter/crossfilter.min.js"></script>
-    <script type="text/javascript" src="lib/jquery/jquery-1.7.1.min.js"></script>
-    <script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="lib/app/js/app.js"></script>
-    <script type="text/javascript" src="lib/app/js/elections.js"></script>
 
-    <script type="text/javascript">
+<div class="container">
+  <section id="main">
+    <div id="map-circonscriptions" class="span4 hero-unit">
+     <div id="navigation">
+       <button id="navigationButton" class="btn-mini btn-inverse"> <i class="icon-chevron-left icon-white"></i> </button>
+     </div>
+   </div>
+   <div id="info-box" class="span6">
+     <table id="partyBar" class="table" style="display: table;">
+       <tbody>
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-31617724-1']);
-  _gaq.push(['_trackPageview']);
+       </tbody>
+     </table>
+     <table id="info-table" class="table table-condensed">
+       <thead>
+         <tr>
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+         </tr>
+       </thead>
+       <tbody>
+       </tbody>
+     </table>
+   </div>
+ </div>		    
+</section>
+<section id="hidden-stuff">
+  <div id="tooltip">
+   <table id="tooltipTable" class="table table-condensed">
+     <thead>
+       <tr>
+        <td colspan="4">
+        </td>
+      </tr>
+    </thead>
+    <tbody>
+
+    </tbody>
+  </table>
+  <span id="tooltipInstruction" style="display: inline; ">Click for zoom in</span>
+</div>
+</section>
+<hr>
+
+
+</div>
+
+<script type="text/javascript">
+
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-31617724-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
 
 </script>
 
-  </body>
+</body>
 </html>
