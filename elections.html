@@ -5,7 +5,7 @@
   <title>ANC Election Results</title>  
   <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css" type="text/css"/>
   <link rel="stylesheet" href="lib/bootstrap/css/bootstrap-responsive.css" type="text/css"/>
-  <link rel="stylesheet" href="lib/colorbrewer/colorbrewer.css" type="text/css"/>
+ 
   <link rel="stylesheet" href="lib/app/css/app.css" type="text/css"/>
   <link rel="stylesheet" href="lib/app/css/elections.css" type="text/css"/>
   <link rel="shortcut icon" href="favicon.ico">
@@ -43,11 +43,20 @@
      </div>
    </div>
    <div id="info-box" class="span6">
-     <table id="partyBar" class="table" style="display: table;">
+     <table id="party-bar" class="table" style="display: table;">
        <tbody>
 
        </tbody>
      </table>
+     <div id="vote-bar" class="secondary_res2" style="">
+        <span>Registered <span id="registered" class="entona"></span><strong>|</strong></span>  
+        <span>Voted <span id="voted" class="entona"></span><strong>|</strong></span>  
+        <span>Abstention <span id="abstention" class="entona"></span> </span>
+        <br>
+        <span>Valid <span id="valid" class="entona"></span><strong>|</strong></span>  
+        <span>Blank <span id="blank" class="entona"></span><strong>|</strong></span>  
+        <span>Invalid <span id="invalid" class="entona"></span></span>
+     </div>
      <table id="info-table" class="table table-condensed">
        <thead>
          <tr>
